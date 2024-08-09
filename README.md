@@ -121,7 +121,7 @@ Troubleshooting
 •	Verify database connections and migrations are applied correctly.
 
 
-10. Conclusion 
+9. Conclusion 
 This documentation provides a comprehensive guide to running and interacting with the Library Management System API. For any further questions or contributions, feel free to reach out or open an issue on the project's repository.
 
 
