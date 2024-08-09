@@ -29,8 +29,8 @@ Before running the application, ensure you have the following installed:
 
 
 3. Getting Started 
-Clone the Repository : git clone https://github.com/youssefTolan /library-management-system.git
-cd library-management-system
+Clone the Repository : git clone [https://github.com/youssefTolan /library-management-system.git
+cd library-management-system](https://github.com/YoussefTolan/library.git)
 To get started, clone the repository from your version control system (e.g., GitHub):
 Build the Project : mvn clean install
 Run the Application : mvn spring-boot:run
