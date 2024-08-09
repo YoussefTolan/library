@@ -16,8 +16,10 @@ o	Request and Response Formats
 7.	Testing
 8.	Common Issues and Troubleshooting
 9.	Conclusion
+
 1. Introduction 
 This documentation provides an overview of the Library Management System API, developed using Spring Boot. The API allows users to manage books, patrons, and borrowing records within a library system. This document covers how to set up, run, and interact with the API.
+
 2. Prerequisites 
 Before running the application, ensure you have the following installed:
 •	Java 11 or higher
@@ -32,9 +34,11 @@ cd library-management-system
 To get started, clone the repository from your version control system (e.g., GitHub):
 Build the Project : mvn clean install
 Run the Application : mvn spring-boot:run
+
 4. API Documentation 
 Swagger UI
 http://localhost:8080/swagger-ui.html
+
 5. Interacting with the API 
 Available Endpoints 
 Below is a list of available API endpoints grouped by resource:
@@ -87,6 +91,7 @@ Response: {
     "returnDate": null
 } 
 
+
 6.Error Handling 
 The API uses custom exception handling to return meaningful error messages. Common error responses include:
 •	400 Bad Request: Returned for validation errors.
@@ -100,6 +105,7 @@ Example Error Response
     "message": "NO_MATCHING_BOOK_RECORD_FOR_THIS_ID",
     "path": "/books/999"
 }
+
 7.Testing 
 Unit tests are provided for the service and controller layers. To run the tests, use the following command:
 mvn test
