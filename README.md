@@ -2,22 +2,22 @@
 ________________________________________
 Library Management System API Documentation
 Table of Contents
-.	Introduction
-.	Prerequisites
-.	Getting Started
+1.	Introduction
+2.	Prerequisites
+3.	Getting Started
 o	Clone the Repository
 o	Build the Project
 o	Run the Application
-.	API Documentation
-.	Interacting with the API
+4.	API Documentation
+5.	Interacting with the API
 o	Available Endpoints
 o	Request and Response Formats
-.	Error Handling
-.	Testing
-.	Common Issues and Troubleshooting
-.	Conclusion
+6.	Error Handling
+7.	Testing
+8.	Common Issues and Troubleshooting
+9.	Conclusion
 
-1. Introduction 
+1) Introduction 
 This documentation provides an overview of the Library Management System API, developed using Spring Boot. The API allows users to manage books, patrons, and borrowing records within a library system. This document covers how to set up, run, and interact with the API.
 
 2. Prerequisites 
